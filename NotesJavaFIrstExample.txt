@@ -1,0 +1,31 @@
+1.Class in java: A java class is the concept of Object Oriented Programming which follows a structure which contains
+variables,methods and constructors in java.It helps in decreasing code duplicacy and enables functions of code reuseability.
+Class could be public,private,protected if nothing is specified then it falls in category of default.Class can only be
+accessed by the object of the class, all the calls to the methods.
+##Snippet code##
+public class MyClass{
+}
+
+2.Constructors in java: constructors are special methods of the class which gets called each time a class's object is
+initialized.Constructors can be overloaded with different paramterts in the definition, A class can have multiple constructors
+overloaded with differen set of parameters.Constructors doesn't have any return type(it never returns anything).Generally it is
+used for initialization purposes.
+##Snippet code##
+public class MyClass{
+String name;
+MyClass(){
+}
+MyClass(String name){
+this.name=name;
+}
+}
+
+3.This keyword in Java:This keyword in java refers to the current object of the class(it refers to the object which is
+currently accessing the class).When using muliple objects of the same class sometimes not using this keyword may result conlicts
+in names with properties and methods.
+
+4.Object in java: Object is instance of the class which is used to access the methods and properties of the class.
+MyClass object;// here object is the instance of the class MyClass 
+object.display();//here we are accessing the method dislay from class MyClass with help of "object" object.
+
+Don't forget to practice the code by yourself and study the notes.
